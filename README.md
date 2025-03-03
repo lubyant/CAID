@@ -1,5 +1,5 @@
 ![CAID Logo](Logo.jpg)
-
+![Benchmark Example](BenchMarkExample.jpg)
 # CAID Dataset and Deep Learning Model Training
 
 ## Download the CAID Dataset
@@ -65,8 +65,6 @@ cp -r my_model mmsegmentation/
 ### Running Model Inference
 
 Follow the instructions in the [MMSegmentation documentation](https://mmsegmentation.readthedocs.io/en/latest/) to demo the trained model on the `img` folder inside `test_set`. Save the segmentation results into corresponding subfolders within `test_set`.
-
-![Benchmark Example](BenchMarkExample.jpg)
 
 ---
 
