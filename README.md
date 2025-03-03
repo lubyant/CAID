@@ -38,7 +38,18 @@ cp -r my_model mmsegmentation/
    ```
 3. To train other deep learning models provided in the `my_model` folder, run similar commands by replacing the `--config` and `--work-dir` arguments accordingly.
 
+## Performance Testing
+### Preparing the Test Set
+1. Create a folder named `test_set`.
+2. Copy all original images and labeled images into this `test_set`.
+3. Inside `test_set`, create two subfolders:
+   - `img/` (for original images)
+   - `GT_label/` (for labeled images)
+
+### Running Model Inference
+Follow the instructions in the [MMSegmentation documentation](https://mmsegmentation.readthedocs.io/en/latest/) to demo the trained model on the `img` folder inside `test_set`. Save the segmentation results into corresponding subfolders within `test_set`.
+
 ---
 
-By following these steps, you will successfully set up and train a deep learning model on the CAID dataset using MMSegmentation.
+By following these steps, you will successfully set up, train, and evaluate a deep learning model on the CAID dataset using MMSegmentation.
 
