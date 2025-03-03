@@ -1,8 +1,12 @@
 ![CAID Logo](Logo.jpg)
 
+# CAID Dataset and Deep Learning Model Training
+
 ## Download the CAID Dataset
 
 Please download the CAID dataset from the following Dropbox link: [Download CAID Dataset](https://www.dropbox.com/scl/fi/utneg5amvm39l58f75r19/NAIP_Coastal-20250219T225105Z-001.zip?rlkey=kzp1u0eyax4agcblm24ibl2r6\&dl=0)
+
+Run `DistributionAnalysis.ipynb` to visualize dataset distribution.
 
 ## Setting Up MMSegmentation
 
@@ -46,6 +50,7 @@ cp -r my_model mmsegmentation/
    python tools/train.py --config ./my_model/CCNetBenchmark/ccnet_r50-d8_4xb4-20k_voc12aug-512x512.py --work-dir /home/weiwang/ResearchProjects/mmsegmentation/my_model_res/CCNetBenchmark/
    ```
 3. To train other deep learning models provided in the `my_model` folder, run similar commands by replacing the `--config` and `--work-dir` arguments accordingly.
+4. Once complete all the training, you can run `DemoAnalysis.ipynb` to see the performance on validation sets during training.
 
 ## Performance Testing
 
@@ -64,6 +69,8 @@ Follow the instructions in the [MMSegmentation documentation](https://mmsegmenta
 ![Benchmark Example](BenchMarkExample.jpg)
 
 ---
+
+Once you have completed inferencing the test images and placed the results into the corresponding folders, you can follow `BenchDemoAnalysis.ipynb` and `TestParamsAnalysis.ipynb` to plot the examples and show the statistics.
 
 By following these steps, you will successfully set up, train, and evaluate a deep learning model on the CAID dataset using MMSegmentation.
 
