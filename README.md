@@ -4,7 +4,7 @@
 
 ## Download the CAID Dataset
 
-Please download the CAID dataset from the following Dropbox link: [Download CAID Dataset](https://www.dropbox.com/scl/fi/utneg5amvm39l58f75r19/NAIP_Coastal-20250219T225105Z-001.zip?rlkey=kzp1u0eyax4agcblm24ibl2r6\&dl=0)
+Please download the CAID dataset from the following Dropbox link: [Download CAID Dataset](https://www.dropbox.com/scl/fi/6co6777e4az1bsy8z991w/CAID.zip?rlkey=wi92w4cypnth0dq8xr7tir7qv&dl=0)
 
 Run `DistributionAnalysis.ipynb` to visualize dataset distribution.
 
