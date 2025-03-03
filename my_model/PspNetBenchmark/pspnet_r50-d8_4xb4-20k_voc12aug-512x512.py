@@ -7,5 +7,5 @@ crop_size = (512, 512)
 data_preprocessor = dict(size=crop_size)
 model = dict(
     data_preprocessor=data_preprocessor,
-    decode_head=dict(num_classes=21),
-    auxiliary_head=dict(num_classes=21))
+    decode_head=dict(num_classes=2),
+    auxiliary_head=dict(num_classes=2))
