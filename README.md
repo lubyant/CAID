@@ -23,6 +23,12 @@ PALETTE = [[0, 0, 0], [128, 0, 0]]
 3. Unzip the downloaded CAID dataset inside this `datasets` folder.
 4. Rename the extracted folder to `voc2012`.
 
+### Copy `my_model` to `mmsegmentation`
+Before training, copy the `my_model` folder to the `mmsegmentation` directory:
+```bash
+cp -r my_model mmsegmentation/
+```
+
 ## Training the Model
 ### Running Training in Terminal
 1. Open a terminal and activate the correct Python environment.
@@ -30,7 +36,7 @@ PALETTE = [[0, 0, 0], [128, 0, 0]]
    ```bash
    python tools/train.py --config ./my_model/CCNetBenchmark/ccnet_r50-d8_4xb4-20k_voc12aug-512x512.py --work-dir /home/weiwang/ResearchProjects/mmsegmentation/my_model_res/CCNetBenchmark/
    ```
-3. To train other deep learning models, replace the `--config` and `--work-dir` arguments with the appropriate paths for the desired model.
+3. To train other deep learning models provided in the `my_model` folder, run similar commands by replacing the `--config` and `--work-dir` arguments accordingly.
 
 ---
 
