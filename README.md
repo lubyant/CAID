@@ -40,6 +40,8 @@ Before training, copy the `my_model` folder to the `mmsegmentation` directory:
 cp -r my_model mmsegmentation/
 ```
 
+Then modify LINE 3 in pascal_voc12.py to your dataset path.
+
 ## Training the Model
 
 ### Running Training in Terminal
