@@ -1,4 +1,4 @@
-![CAID Logo](logo.jpg)
+![CAID Logo](Logo.jpg)
 
 # CAID Dataset and Deep Learning Model Training
 
