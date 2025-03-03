@@ -1,36 +1,47 @@
+![CAID Logo](logo.jpg)
+
 # CAID Dataset and Deep Learning Model Training
 
 ## Download the CAID Dataset
-Please download the CAID dataset from the following Dropbox link:
-[Download CAID Dataset](https://www.dropbox.com/scl/fi/utneg5amvm39l58f75r19/NAIP_Coastal-20250219T225105Z-001.zip?rlkey=kzp1u0eyax4agcblm24ibl2r6&dl=0)
+
+Please download the CAID dataset from the following Dropbox link: [Download CAID Dataset](https://www.dropbox.com/scl/fi/utneg5amvm39l58f75r19/NAIP_Coastal-20250219T225105Z-001.zip?rlkey=kzp1u0eyax4agcblm24ibl2r6\&dl=0)
 
 ## Setting Up MMSegmentation
+
 To test deep learning model performance on CAID, first download and install [MMSegmentation](https://github.com/open-mmlab/mmsegmentation).
 
 ### Modify `voc.py`
+
 After installation, modify the `voc.py` file located under `mmseg/datasets` to ensure it contains only two classes:
+
 - `background`
 - `water`
 
 Also, update the color palette to:
+
 ```python
 PALETTE = [[0, 0, 0], [128, 0, 0]]
 ```
 
 ### Organizing the Dataset
+
 1. Navigate to the `mmsegmentation` folder.
 2. Create a folder named `datasets` if it does not already exist.
 3. Unzip the downloaded CAID dataset inside this `datasets` folder.
 4. Rename the extracted folder to `voc2012`.
 
 ### Copy `my_model` to `mmsegmentation`
+
 Before training, copy the `my_model` folder to the `mmsegmentation` directory:
+
 ```bash
 cp -r my_model mmsegmentation/
 ```
 
 ## Training the Model
+
 ### Running Training in Terminal
+
 1. Open a terminal and activate the correct Python environment.
 2. Run the following command to train CCNet on CAID:
    ```bash
@@ -39,7 +50,9 @@ cp -r my_model mmsegmentation/
 3. To train other deep learning models provided in the `my_model` folder, run similar commands by replacing the `--config` and `--work-dir` arguments accordingly.
 
 ## Performance Testing
+
 ### Preparing the Test Set
+
 1. Create a folder named `test_set`.
 2. Copy all original images and labeled images into this `test_set`.
 3. Inside `test_set`, create two subfolders:
@@ -47,7 +60,10 @@ cp -r my_model mmsegmentation/
    - `GT_label/` (for labeled images)
 
 ### Running Model Inference
+
 Follow the instructions in the [MMSegmentation documentation](https://mmsegmentation.readthedocs.io/en/latest/) to demo the trained model on the `img` folder inside `test_set`. Save the segmentation results into corresponding subfolders within `test_set`.
+
+![Benchmark Example](BenchMarkExample.jpg)
 
 ---
 
