@@ -76,6 +76,9 @@ By following these steps, you will successfully set up, train, and evaluate a de
 
 ## Contributors
 Wei Wang, University of Wisconsin, Madison
+
 Boyuan Lu, University of Wisconsin, Madison
+
 Yihan Li, University of Wisconsin, Madison
+
 Weiyan Shi, Singapore University of Technology and Design
