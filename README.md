@@ -74,6 +74,9 @@ Once you have completed inferencing the test images and placed the results into 
 
 By following these steps, you will successfully set up, train, and evaluate a deep learning model on the CAID dataset using MMSegmentation.
 
+## Images accessbility
+The aerial imagery is provided by United States Department of Agriculture (USDA), which provides authorization for freely use. https://www.fsa.usda.gov/help/accessibility-statement
+
 ## Contributors
 Wei Wang, University of Wisconsin, Madison
 
@@ -82,3 +85,4 @@ Boyuan Lu, University of Wisconsin, Madison
 Yihan Li, University of Wisconsin, Madison
 
 Weiyan Shi, Singapore University of Technology and Design
+
