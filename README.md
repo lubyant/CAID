@@ -1,4 +1,7 @@
 ![CAID Logo](Logo.jpg)
+
+This is the code example for reproducing "Descriptor: Coastal Aerial Imagery Dataset for Shoreline Segmentation (CAID)".
+
 ![Benchmark Example](BenchMarkExample.jpg)
 # CAID Dataset and Deep Learning Model Training
 
