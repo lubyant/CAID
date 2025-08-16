@@ -87,3 +87,20 @@ Yihan Li, University of Wisconsin, Madison
 Weiyan Shi, Singapore University of Technology and Design
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16461280.svg)](https://doi.org/10.5281/zenodo.16461280)
+
+## Citation
+```bib
+@ARTICLE{11125715,
+  author={Wang, Wei and Lu, Boyuan and Li, Yihan and Shi, Weiyan},
+  journal={IEEE Data Descriptions}, 
+  title={Descriptor: Coastal Aerial Imagery Dataset for Shoreline Segmentation (CAID)}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-11},
+  keywords={Sea measurements;Image segmentation;Benchmark testing;Accuracy;Labeling;Training;Lakes;Image edge detection;Boats;Algae;Aerial imagery;coastal;shoreline;segmentation;the Great Lakes},
+  doi={10.1109/IEEEDATA.2025.3599116}}
+```
+W. Wang, B. Lu, Y. Li and W. Shi, "Descriptor: Coastal Aerial Imagery Dataset for Shoreline Segmentation (CAID)," in IEEE Data Descriptions, doi: 10.1109/IEEEDATA.2025.3599116.
+
+
