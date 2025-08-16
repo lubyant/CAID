@@ -7,7 +7,7 @@ This is the code example for reproducing "Descriptor: Coastal Aerial Imagery Dat
 
 ## Download the CAID Dataset
 
-Please download the CAID dataset from the following Dropbox link: [Download CAID Dataset](https://www.dropbox.com/scl/fi/6co6777e4az1bsy8z991w/CAID.zip?rlkey=wi92w4cypnth0dq8xr7tir7qv&dl=0) or zenodo: https://doi.org/10.5281/zenodo.15330911 
+Please download the CAID dataset from the following Dropbox link: [Download CAID Dataset](https://www.dropbox.com/scl/fi/6co6777e4az1bsy8z991w/CAID.zip?rlkey=wi92w4cypnth0dq8xr7tir7qv&dl=0) or Zenodo link: [Download CAID Dataset](https://doi.org/10.5281/zenodo.15330911).
 
 Run `DistributionAnalysis.ipynb` to visualize dataset distribution.
 
