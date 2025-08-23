@@ -109,4 +109,4 @@ W. Wang, B. Lu, Y. Li and W. Shi, "Descriptor: Coastal Aerial Imagery Dataset fo
 ## Join our Kaggle Competition
 We host a Kaggle competition at
 
-bo yuan lu and Wei Wang. Coastal shoreline segmentation. https://kaggle.com/competitions/coastal-shoreline-segmentation, 2025. Kaggle.
+Boyuan Lu and Wei Wang. Coastal shoreline segmentation. https://kaggle.com/competitions/coastal-shoreline-segmentation, 2025. Kaggle.
