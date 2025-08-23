@@ -106,4 +106,7 @@ Weiyan Shi, Singapore University of Technology and Design
 ```
 W. Wang, B. Lu, Y. Li and W. Shi, "Descriptor: Coastal Aerial Imagery Dataset for Shoreline Segmentation (CAID)," in IEEE Data Descriptions, doi: 10.1109/IEEEDATA.2025.3599116.
 
+## Join our Kaggle Competition
+We host a Kaggle competition at
 
+bo yuan lu and Wei Wang. Coastal shoreline segmentation. https://kaggle.com/competitions/coastal-shoreline-segmentation, 2025. Kaggle.
