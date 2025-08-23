@@ -89,7 +89,7 @@ Yihan Li, University of Wisconsin, Madison
 
 Weiyan Shi, Singapore University of Technology and Design
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16461280.svg)](https://doi.org/10.5281/zenodo.16461280)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16461280.svg)](https://doi.org/10.5281/zenodo.15330911)
 
 ## Citation
 ```bib
