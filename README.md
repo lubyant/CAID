@@ -100,7 +100,7 @@ Weiyan Shi, Singapore University of Technology and Design
   year={2025},
   volume={},
   number={},
-  pages={1-11},
+  pages={286 - 295},
   keywords={Sea measurements;Image segmentation;Benchmark testing;Accuracy;Labeling;Training;Lakes;Image edge detection;Boats;Algae;Aerial imagery;coastal;shoreline;segmentation;the Great Lakes},
   doi={10.1109/IEEEDATA.2025.3599116}}
 ```
